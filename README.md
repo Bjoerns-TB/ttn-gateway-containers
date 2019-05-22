@@ -1,6 +1,8 @@
 TTN Gateway Containers [![Build Status](https://travis-ci.org/AmedeeBulle/ttn-gateway-containers.svg?branch=master)](https://travis-ci.org/AmedeeBulle/ttn-gateway-containers)
 ======================
 
+This Fork is modified and stripped down to my personal needs. So please don't use it.
+
 # Contents
 <!-- TOC START min:1 max:3 link:true update:false -->
 - [Introduction](#introduction)
