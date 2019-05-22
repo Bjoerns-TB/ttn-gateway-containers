@@ -1,4 +1,4 @@
-TTN Gateway Containers [![Build Status](https://travis-ci.org/Bjoerns-TB/ttn-gateway-containers.svg?branch=master)](https://travis-ci.org/AmedeeBulle/ttn-gateway-containers)
+TTN Gateway Containers [![Build Status](https://travis-ci.org/Bjoerns-TB/ttn-gateway-containers.svg?branch=master)](https://travis-ci.org/Bjoerns-TB/ttn-gateway-containers)
 ======================
 
 This Fork is modified and stripped down to my personal needs. So please don't use it.
