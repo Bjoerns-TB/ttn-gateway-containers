@@ -246,8 +246,11 @@ else:
 if(gw_gps):
   print ("Using real GPS")
   gateway_conf['gps'] = True
-  gateway_conf['fake_gps'] = False
+  gateway_conf['fake_gps'] = True
   gateway_conf['gps_tty_path'] = os.getenv('GW_GPS_PORT', "/dev/ttyAMA0")
+  gateway_conf['ref_latitude'] = float(latitude)
+  gateway_conf['ref_longitude'] = float(longitude)
+  gateway_conf['ref_altitude'] = float(altitude)
 # Use fake GPS with coordinates from TTN
 elif(gw_gps==False and latitude!=0 and longitude!=0):
   print ("Using fake GPS")
