@@ -29,13 +29,6 @@ script:
   # Build images
   - docker-compose -f docker-compose-collectd.yml build
 
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: ./scripts/deploy_docker.sh
-  on:
-    all_branches: true
-
 jobs:
   include:
     - stage: balena
